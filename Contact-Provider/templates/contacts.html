@@ -1,0 +1,18 @@
+{{title}}
+<!--<div ng-repeat="c in contacts">
+    <a ui-sref="home.contacts.details({id :c.id})">{{c.name}}</a> 
+</div>-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-1">
+            <ul>
+                <li><a ui-sref="contacts.details({id :'A'})">A</a></li>
+                <li><a ui-sref="contacts.details({id :'J'})">J</a></li>
+                <li><a ui-sref="contacts.details({id :'T'})">T</a></li>
+            </ul>
+        </div>
+        <div class="col-md-7">
+            <ui-view/>
+        </div>
+    </div>
+</div>

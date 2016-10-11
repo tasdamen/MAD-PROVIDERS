@@ -1,0 +1,21 @@
+{
+  "name": "ContactListSPA",
+  "description": "First assignment utilizing translate and ngRouter library",
+  "main": "index.html",
+  "keywords": [
+    "MAD",
+    "Angular"
+  ],
+  "authors": [
+    "Tas"
+  ],
+  "license": "Unlicensed",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "angularjs#^1.5.8",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "angular-translate": "^2.12.1",
+    "bootstrap": "^3.3.7"
+  }
+}
