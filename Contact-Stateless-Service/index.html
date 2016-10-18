@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/livescript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="lib/app.js"></script>
+</head>
+
+<body ng-app="ContactsApp">
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <div id="navbar" class="navbar">
+                <ul class="nav navbar-nav">
+                    <a href="#/account">Home</a> |
+                    <a ui-sref="contacts">Contacts</a> |
+                    <a href="#/about-us">About Us</a>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <ui-view/>
+    </div>
+</body>
+
+</html>
